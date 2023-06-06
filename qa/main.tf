@@ -1,8 +1,8 @@
-module "qa" {
+module "learning-terraform-qa" {
     source = "../modules/blog"
 
     environment =  {
-        name = "qa"
+        name = "learning-terraform-qa"
         network_prefix = "10.1"
     }
 
